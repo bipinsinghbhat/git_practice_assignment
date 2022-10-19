@@ -1,6 +1,7 @@
 // prime number
 
 let num=7;
+let count=0;
 for(let i=1;i<=num;i++){
 if(num%i==0){
 count++;
@@ -17,7 +18,7 @@ bag="";
 for(let i=name.length-1;i>=0;i--){
  bag+"name[i]"; }
 
-if(name=bag){
+if(name==bag){
 console.log("pallindrome");}
 else{
 console.log("not a pallindrome");
